@@ -13,6 +13,9 @@
 		BA9E23C1219B749C006E27F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9E23C0219B749C006E27F4 /* Assets.xcassets */; };
 		BA9E23C4219B749C006E27F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9E23C2219B749C006E27F4 /* LaunchScreen.storyboard */; };
 		BA9E23C7219B749C006E27F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E23C6219B749C006E27F4 /* main.m */; };
+		BA9E23CF219B755E006E27F4 /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E23CE219B755E006E27F4 /* TargetViewController.m */; };
+		BA9E23D1219BA3BA006E27F4 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9E23D0219BA3BA006E27F4 /* MyCustomCell.xib */; };
+		BA9E23D4219BAC3E006E27F4 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E23D3219BAC3E006E27F4 /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		BA9E23C3219B749C006E27F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9E23C5219B749C006E27F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9E23C6219B749C006E27F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9E23CD219B755E006E27F4 /* TargetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetViewController.h; sourceTree = "<group>"; };
+		BA9E23CE219B755E006E27F4 /* TargetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
+		BA9E23D0219BA3BA006E27F4 /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
+		BA9E23D2219BAC3E006E27F4 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		BA9E23D3219BAC3E006E27F4 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,11 @@
 				BA9E23C2219B749C006E27F4 /* LaunchScreen.storyboard */,
 				BA9E23C5219B749C006E27F4 /* Info.plist */,
 				BA9E23C6219B749C006E27F4 /* main.m */,
+				BA9E23CD219B755E006E27F4 /* TargetViewController.h */,
+				BA9E23CE219B755E006E27F4 /* TargetViewController.m */,
+				BA9E23D0219BA3BA006E27F4 /* MyCustomCell.xib */,
+				BA9E23D2219BAC3E006E27F4 /* MyTableViewCell.h */,
+				BA9E23D3219BAC3E006E27F4 /* MyTableViewCell.m */,
 			);
 			path = DBWithJSON;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 			files = (
 				BA9E23C4219B749C006E27F4 /* LaunchScreen.storyboard in Resources */,
 				BA9E23C1219B749C006E27F4 /* Assets.xcassets in Resources */,
+				BA9E23D1219BA3BA006E27F4 /* MyCustomCell.xib in Resources */,
 				BA9E23BF219B749A006E27F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +158,8 @@
 				BA9E23BC219B749A006E27F4 /* ViewController.m in Sources */,
 				BA9E23C7219B749C006E27F4 /* main.m in Sources */,
 				BA9E23B9219B749A006E27F4 /* AppDelegate.m in Sources */,
+				BA9E23CF219B755E006E27F4 /* TargetViewController.m in Sources */,
+				BA9E23D4219BAC3E006E27F4 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
